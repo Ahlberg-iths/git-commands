@@ -1,0 +1,6 @@
+
+*.jar
+
+out/
+target/**
+!target/*.html
