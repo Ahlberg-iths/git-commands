@@ -66,3 +66,23 @@
 	git push -u origin feature1
 	git push -u origin feature2
 	git push origin extinct
+
+------------------------------------------------------
+
+18. 
+	git tag -a v1.0 -m "Version 1.0"
+
+19. 
+	git rebase -i HEAD~3
+	
+20. 	
+	git status
+	git log --all --oneline --graph --decorate
+	git switch -c feature3
+	git status
+	git commit -a -m "Add last commands to fix2.txt"
+	git checkout main
+	git merge --no-ff feature3
+	git push -f
+	git push origin v1.0
+	git push -u origin feature3
